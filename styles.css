@@ -5,22 +5,22 @@
 
     /* Primary colors */
     /* Very dark blue - main background */
-    --clr--primary-dark-color:hsl(233, 47%, 7%);
+    --clr--primary-dark-color: hsl(233, 47%, 7%);
     /* Dark desaturated blue - card background */
-    --clr--primary-desat-color:hsl(244, 38%, 16%);
+    --clr--primary-desat-color: hsl(244, 38%, 16%);
     /* Soft violet */
-    --clr--primary-violet-color:hsl(277, 64%, 61%);
+    --clr--primary-violet-color: hsl(277, 64%, 61%);
 
     /* Neutral colors */
-    --clr--white-color:hsl(0, 0%, 100%);
+    --clr--white-color: hsl(0, 0%, 100%);
     /* Main paragraph */
-    --clr--white-transparent0-color:hsla(0, 0%, 100%, 0.75);
+    --clr--white-transparent0-color: hsla(0, 0%, 100%, 0.75);
     /* Stat headings */
-    --clr--white-transparent1-color:hsla(0, 0%, 100%, 0.6);
+    --clr--white-transparent1-color: hsla(0, 0%, 100%, 0.6);
 }
 
 /* Defaults */
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
@@ -39,13 +39,16 @@ body {
 span {
     color: var(--clr--primary-violet-color);
 }
+
 /* Attribution */
 
-.attribution { 
-    font-size: 11px; text-align: center; 
+.attribution {
+    font-size: 11px;
+    text-align: center;
 }
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
 
 /* Stats Card */
@@ -62,11 +65,11 @@ span {
 
 /* "Left side" */
 
-.hero-card-left{
+.hero-card-left {
     background-color: var(--clr--primary-desat-color);
     height: 21.875rem;
-    width: 50%;     
-    border-radius:0.625rem 0rem 0rem 0.625rem;
+    width: 50%;
+    border-radius: 0.625rem 0rem 0rem 0.625rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,7 +77,7 @@ span {
 
 }
 
-.hero-card-head{
+.hero-card-head {
     height: 20rem;
     width: 90%;
     display: flex;
@@ -82,15 +85,16 @@ span {
     justify-content: space-around;
     flex-direction: column;
 }
-.text{
-    padding:0 5%;
+
+.text {
+    padding: 0 5%;
     color: var(--clr--white-color);
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 1.875rem;
 }
 
-.description{
+.description {
     color: var(--clr--white-transparent1-color);
     width: 22.5rem;
     margin-right: 2.5rem;
@@ -100,24 +104,27 @@ span {
     align-items: flex-start;
 
 }
-/* Stats */ 
 
-.stats{
+/* Stats */
+
+.stats {
     width: 90%;
     height: 5rem;
     display: flex;
     justify-content: space-around;
-    align-items: center;    
-    margin-right: 3.75rem;    
+    align-items: center;
+    margin-right: 3.75rem;
 }
-.stat h2{
-    color:var(--clr--white-transparent0-color) ;
+
+.stat h2 {
+    color: var(--clr--white-transparent0-color);
     font-family: 'Inter', sans-serif;
     font-weight: 700;
 }
-.stat p{
+
+.stat p {
     margin-top: 0.313rem;
-    color:var(--clr--white-transparent1-color);
+    color: var(--clr--white-transparent1-color);
     text-transform: uppercase;
     font-size: 0.75rem;
     font-family: 'Lexend Deca', sans-serif;
@@ -125,7 +132,7 @@ span {
 
 /* "Right side" - image */
 
-.hero-card-right{
+.hero-card-right {
     background: var(--clr--primary-violet-color);
     height: 21.875rem;
     width: 50%;
@@ -134,13 +141,11 @@ span {
 }
 
 
-  /* Image overlay */
-.hero-card-right img{
+/* Image overlay */
+.hero-card-right img {
     height: 100%;
     width: 100%;
     mix-blend-mode: multiply;
     border-radius: 0rem 0.625rem 0.625rem 0rem;
-    
+
 }
-
-
