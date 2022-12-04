@@ -19,7 +19,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://craithez.github.io/Stats-preview-card-component/)
+- Live Site URL: [Live Site](https://craithez.github.io/Stats-preview-card-component/)
 
 ### Built with
 
